@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login registration</title>
+    <link rel="stylesheet" href="/sillipdrip/login regiastration page/login.css">
+    <link rel='shortcut icon' href='/sillipdrip/kdrama/pics2/logo.png'
+    type='image/x-icon' />
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="inner-box" >
+                
+
+                     <div class="card-front" id="card">
+                        <h2>LOGIN</h2>
+                        <form> 
+                            <input type="email" class="input-box" placeholder="enter your email id"required>
+                            <input type="password" class="input-box" placeholder="enter your password"required>
+                            
+                            <button type="submit" class="submit-btn" onclick="location.href = '/sillipdrip/kdrama/hom.html';">submit</button>
+                            <input type="checkbox"><span>Remember Me</span>
+                            <!--  -->
+                        </form>
+                        <p2>I'm new here<a href="/sillipdrip/login regiastration page/register.html">register here</a></p2>
+                        <a href="#">Forgot password</a> 
+    
+                    </div>
+                
+            </div>
+        </div>
+
+    </div>
+    <!-- <script>
+    //      var card =document.getElementById("card");
+    //     function openRegister(){
+    //         card.style.transform ="rotateY(-0deg)";
+    //     }
+    //     function openLogin(){
+    //         card.style.transform ="rotateY(-180deg)";
+    //     }
+
+
+
+    </script> -->
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.1.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBCtlqO5gdpnStIG8lBrFUBF4gGzht7ft8",
+          authDomain: "siplipdrip.firebaseapp.com",
+          projectId: "siplipdrip",
+          storageBucket: "siplipdrip.appspot.com",
+          messagingSenderId: "1085158844871",
+          appId: "1:1085158844871:web:4a34fa4ceca2868adbd1e2",
+          measurementId: "G-6M8FGDNSXT"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+
+    
+</body>
+</html>
